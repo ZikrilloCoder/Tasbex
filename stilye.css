@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-size: 50px;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.tasbex{
+    width: 35%;
+    height: 80%;
+    background-color: rgb(69, 116, 116);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-around;
+}
+.ekran{
+    width: 80%;
+    height: 90px;
+    border-radius: 15px;
+    background: white;
+}
+.ekran p{
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 25px;
+}
+.start{
+    width: 25%;
+    height: 120px;
+    background-color: tan;
+    border-radius: 50%;
+}
+.start:active{
+    box-shadow: inset 0 0 10px 2px white;
+}
+.pass{
+    width: 70%;
+    height: 70px;
+}
+.ichi{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: tan;
+    float: right;
+}
+.ichi:active{
+    box-shadow: inset 0 0 10px 2px white;
+}
